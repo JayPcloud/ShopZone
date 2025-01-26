@@ -1,16 +1,30 @@
-# api_practice
+# ShopZone
 
-A new Flutter project.
+## Overview
+A fully functional e-commerce app store built with Flutter, utilizing Auth0 API for authentication, and SQLite for Local storage. This app allows users to browse products by categoty, add items to their cart, and complete the checkout process. It runs seamlessly on both Android and iOS devices. The app's user interface is designed to be responsive, ensuring a smooth and consistent user experience.
 
-## Getting Started
+## Features
+### - Authentication:
+Secure user authentication using Auth0 API
+### - Product Browsing: 
+Browse products by category
+### - Shopping Cart:
+Add Products to cart and manage cart contents
+### - Checkout:
+Complete the checkout process
+### - Local Storage: 
+Utilizes SQLite for Local storage to improve app performance
+### - Caching:
+Implements caching for files and images
 
-This project is a starting point for a Flutter application.
+## Technology Stack
+### Frontend:
+Flutter
+### Backend: 
+API integration for product data
+### Local Storage: 
+SQLite
+### Authentication: 
+Auth0 API
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
